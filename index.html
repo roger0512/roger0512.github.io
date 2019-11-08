@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>travel</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.jpg" alt="logo" sizes="60px"/>
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <!-- 漢堡ICON -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#product" class="nav-link">台中特色伴手禮</a></li>
+                        <li><a href="#video" class="nav-link">台中景點介紹(影音)</a></li>
+                        <li><a href="#creative" class="nav-link">台中特色景點介紹</a></li>
+                        <li><a href="https://www.funtime.com.tw/blog/funtime/taichung-pretty-bnb" target="_blank" class="nav-link">台中特色旅店</a></li>
+                        <li><a href="https://sunnylife.tw/2017-04-02-1103/"  target="_blank" class="nav-link">台中特色小吃</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/suncookie01.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>台中太陽餅</h1>
+                        <p>甜而不膩</p>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/cake.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>豐原鹹蛋糕</h1>
+                        <p>「鹹蛋糕」包菜脯、香菇、竹筍，鹹甜滋味超唰嘴</p>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/cake03.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>芋頭酥</h1>
+                        <p>「國宴點心」</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VQkAgWKeFTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                景點 
+            </h2>
+            <!-- 產品照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="https://www.tchac.taichung.gov.tw/building?uid=33&pid=15" target="_blank"><img alt="產品照片1" src="images/01.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">湖心亭</span>
+                                <span class="card-text">臺中公園日月湖原係自然水塘，經人工整修後，水池約有四千一百坪，湖心亭係日明治41年（西元1908年）十月為慶祝縱貫鐵路全線通車典禮所建，來臺主持通車式的日本閑院宮載仁親王曾於此亭休憩、觀看表演。</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>臺灣首座百年公園─臺中公園。</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="https://travel.taichung.gov.tw/zh-tw/Attractions/Intro/54/%E9%AB%98%E7%BE%8E%E6%BF%95%E5%9C%B0-%E9%AB%98%E7%BE%8E%E9%87%8E%E7%94%9F%E5%8B%95%E7%89%A9%E4%BF%9D%E8%AD%B7%E5%8D%80"target="_blank"><img alt="產品照片2" src="images/02.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">高美濕地</span>
+                                <span class="card-text">擁有豐富資源的高美濕地
+                                    鳥類、魚類、蟹類，可以邊走進棧道邊觀察
+                                    對約會的情侶或是親子假日旅遊，都是很讚的地點。
+                                    </span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="https://travel.taichung.gov.tw/zh-tw/Attractions/Intro/942/臺中國家歌劇院"target="_blank"><img alt="產品照片3" src="images/03.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">台中國家歌劇院</span>
+                                <span class="card-text">外觀用「洞窟」、「地穴」的概念，設計成全世界獨一無二的美聲涵洞曲牆建築。</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>台中歌劇院由日本建築師伊東豊雄設計，是極具特色的大型公有展演空間！</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="article_text">
+                    <h3>彩虹村-Rainbow Village</h3>
+                    <p>彩虹眷村位於臺中市南屯區春安路56巷，鄰近嶺東科技大學，是條色彩繽紛、充滿童趣彩繪的巷道；這些色彩繽紛的人像、動物與色塊，因其擁有令人感動的在地元素，讓許多遊客特地前往觀賞，也讓這個孤寂的眷村熱鬧起來。</br>
+                        
+                    </p>
+                    <h3>宮原眼科</h3>
+                    <p>靠近臺中火車站的綠川旁，一棟由紅磚瓦構成的建築，是臺中以土鳳梨酥一戰成名的「日出」蛋糕團隊買下了宮原眼科的舊址。</br>
+                        宮原眼科外部的紅磚牆、舊牌樓被完整保留下來，打造成富有懷舊風情的紅磚木頂式騎樓，走進店內，仿造復古挑高圖書館的裝飾，創造出新舊時代的魔幻空間，店中央一座無法被使用的古井，則被重新打造成現代風的圓型玻璃募款箱，可見設計之巧思。</br>
+                       
+                    </p>
+                    <h1>麗寶outlet</h1>
+                    <p>麗寶OUTLET MALL以快樂為出發點，網羅120家大人小孩都喜愛的運動休閒、親子、時尚、娛樂與餐飲等主題商店與品牌外，外觀以義大利芬諾港的多彩繽紛童話城牆打造，搭配全台最高天空之夢摩天輪，更是這兩年台灣10大IG網紅打卡地標。</br>
+                        OUTLET的1000席美食街、3200個停車位, 朝馬國光客運免費接駁車…熱情邀請您親自來享受休閒購物新樂趣 !
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 背景影片 -->
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+        <source src="video/01.mp4" type="video/mp4">
+      </video>
+        </div>
+    </section>
+
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="images/logo_blue.jpg">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>電話 04-2228-9111</li>
+                        <li>臺中市觀光</li>
+                        <li>服務信箱：service1@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>Copyright © 2016 臺中觀光 </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>
